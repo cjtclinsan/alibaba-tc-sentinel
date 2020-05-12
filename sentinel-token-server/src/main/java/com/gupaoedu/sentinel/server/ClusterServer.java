@@ -10,10 +10,12 @@ import java.util.Collections;
 public class ClusterServer {
 
     public static void main(String[] args) throws Exception {
-        ClusterTokenServer tokenServer=new SentinelDefaultTokenServer();
+        ClusterTokenServer tokenServer = new SentinelDefaultTokenServer();
         ClusterServerConfigManager.loadGlobalTransportConfig(
                 new ServerTransportConfig().setIdleSeconds(600).setPort(9999));
-        ClusterServerConfigManager.loadServerNamespaceSet(Collections.singleton("App-Tc")); //设置成动态
+
+        ClusterServerConfigManager.loadServerNamespaceSet(Collections.singleton("App-Tc"));
+
         tokenServer.start();
     }
 }

@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cd02924-8a00-4acd-85f8-32503109908a" name="Default Changelist" comment="" />
+    <list default="true" id="c539eaa0-efb8-4776-8589-acbf7bbe3d62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-api/target/sentinel-api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-api/target/surefire-reports/TEST-com.tc.sentinel.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-api/target/surefire-reports/TEST-com.tc.sentinel.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-api/target/surefire-reports/com.tc.sentinel.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-api/target/surefire-reports/com.tc.sentinel.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/NacosDataSourceInitFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/NacosDataSourceInitFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sentinel-token-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sentinel-token-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sentinel-token-server/src/main/java/com/gupaoedu/sentinel/server/ClusterServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sentinel-token-server/src/main/java/com/gupaoedu/sentinel/server/ClusterServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sentinel-token-server/src/main/java/com/gupaoedu/sentinel/server/NacosDataSourceInitFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sentinel-token-server/src/main/java/com/gupaoedu/sentinel/server/NacosDataSourceInitFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sentinel-token-server/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.init.InitFunc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sentinel-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sentinel-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sentinel-web/src/main/java/com/tc/sentinel/sentinelweb/SentinelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sentinel-web/src/main/java/com/tc/sentinel/sentinelweb/SentinelController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/sentinel-api/target/" />
     <ignored path="$PROJECT_DIR$/sentinel-provider/target/" />
+    <ignored path="$PROJECT_DIR$/sentinel-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,66 +30,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/SentinelProviderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentinel-api/src/main/java/com/tc/sentinel/SentinelService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/NacosDataSourceInitFunc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentinel-api/src/main/java/com/tc/sentinel/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="188">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>DubboConfig</find>
-      <find>sentinel-dubbo-adapter</find>
-    </findStrings>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sentinel-api/src/main/java/com/gupaoedu/sentinel/SentinelService.java" />
-        <option value="$PROJECT_DIR$/sentinel-provider/src/main/java/com/gupaoedu/sentinel/sentinelprovider/DubboConfig.java" />
-        <option value="$PROJECT_DIR$/sentinel-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/sentinel-provider/src/main/java/com/gupaoedu/sentinel/sentinelprovider/SentinelProviderApplication.java" />
-        <option value="$PROJECT_DIR$/sentinel-provider/src/main/java/com/gupaoedu/sentinel/sentinelprovider/NacosDataSourceInitFunc.java" />
-        <option value="$PROJECT_DIR$/sentinel-provider/src/main/java/com/gupaoedu/sentinel/sentinelprovider/SentinelServiceImpl.java" />
         <option value="$PROJECT_DIR$/sentinel-api/pom.xml" />
-        <option value="$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/Bootstrap.java" />
-        <option value="$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/DubboConfig.java" />
-        <option value="$PROJECT_DIR$/sentinel-api/src/main/java/com/tc/sentinel/SentinelService.java" />
-        <option value="$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/SentinelServiceImpl.java" />
-        <option value="$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/SentinelProviderApplication.java" />
+        <option value="$PROJECT_DIR$/sentinel-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-provider/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.init.InitFunc" />
+        <option value="$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/NacosDataSourceInitFunc.java" />
       </list>
     </option>
   </component>
@@ -96,15 +83,27 @@
           <item name="sentinel-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sentinel-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sentinel-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="126" />
-    <option name="y" value="8" />
-    <option name="width" value="1425" />
+    <option name="x" value="233" />
+    <option name="y" value="56" />
+    <option name="width" value="1065" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -118,6 +117,11 @@
             <path>
               <item name="sentinel-dubbo" type="b2602c69:ProjectViewProjectNode" />
               <item name="sentinel-dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sentinel-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sentinel-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sentinel-dubbo" type="b2602c69:ProjectViewProjectNode" />
@@ -195,6 +199,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sentinel-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sentinel-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -210,16 +223,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589219656636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589277451137" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\2020_0505\sentinel-dubbo\sentinel-provider\src\main\java\com\gupaoedu\sentinel\sentinelprovider" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,98 +240,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SentinelProviderApplication">
-    <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tc.sentinel.sentinelprovider.Bootstrap" />
-      <module name="sentinel-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tc.sentinel.sentinelprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="SentinelProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sentinel-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tc.sentinel.sentinelprovider.SentinelProviderApplication" />
-      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=App-Tc" />
+      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.dashboard.server=192.168.12.101:8080 -Dcsp.sentinel.log.usr.pid=true -Dproject.name=App-Tc" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Bootstrap" />
-      <item itemvalue="Spring Boot.SentinelProviderApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Bootstrap" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9cd02924-8a00-4acd-85f8-32503109908a" name="Default Changelist" comment="" />
-      <created>1588612665667</created>
+      <changelist id="c539eaa0-efb8-4776-8589-acbf7bbe3d62" name="Default Changelist" comment="" />
+      <created>1589254149672</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588612665667</updated>
-      <workItem from="1588612667197" duration="4738000" />
-      <workItem from="1588618403027" duration="598000" />
-      <workItem from="1588733802577" duration="2352000" />
-      <workItem from="1588779364199" duration="605000" />
-      <workItem from="1588905187803" duration="9691000" />
-      <workItem from="1589211614372" duration="7296000" />
+      <updated>1589254149672</updated>
+      <workItem from="1589254155977" duration="3838000" />
+      <workItem from="1589262722953" duration="1373000" />
+      <workItem from="1589264442716" duration="2027000" />
+      <workItem from="1589269649303" duration="4309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25280000" />
+    <option name="totallyTimeSpent" value="11547000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="7" width="1140" height="800" extended-state="0" />
+    <frame x="187" y="45" width="852" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33086875" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4110613" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32884902" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.12107209" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Key Promoter X" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34056762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23803526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -333,7 +284,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3632287" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31736526" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,13 +293,46 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32884902" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.23205343" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.20064205" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23836276" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31736526" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.20064205" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Key Promoter X" order="6" />
@@ -361,109 +345,79 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://E:/Java-plugin/repositories/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/cluster/ClusterStateManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.init.InitFunc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://E:/Java-plugin/repositories/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slots/block/flow/FlowRule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel-api/src/main/java/com/tc/sentinel/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java-plugin/repositories/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slots/block/AbstractRule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java-plugin/repositories/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slots/block/RuleConstant.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/Bootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="64">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/DubboConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/NacosDataSourceInitFunc.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-832">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel-api/src/main/java/com/tc/sentinel/SentinelService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/SentinelServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/SentinelProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="112">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-api/src/main/java/com/tc/sentinel/SentinelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.init.InitFunc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/SentinelProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-provider/src/main/java/com/tc/sentinel/sentinelprovider/NacosDataSourceInitFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>

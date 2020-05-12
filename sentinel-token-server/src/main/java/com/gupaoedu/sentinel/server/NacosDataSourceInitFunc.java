@@ -16,16 +16,17 @@ import java.util.List;
 public class NacosDataSourceInitFunc implements InitFunc {
     /**nacos 配置中心的服务host*/
     private final String remoteAddress="192.168.12.101";
+    /**nacos groupId*/
     private final String groupId="SENTINEL_GROUP";
-    /**dataid（names+postfix）*/
+    /**dataid（names + postfix） namespace不同，限流规则也不同*/
     private final String FLOW_POSTFIX="-flow-rules";
 
     /**意味着当前的token-server会从nacos上获得限流的规则*/
     @Override
     public void init() throws Exception {
-        ClusterFlowRuleManager.setPropertySupplier(namespace ->{
-            ReadableDataSource<String, List<FlowRule>> rds=
-                    new NacosDataSource<>(remoteAddress, groupId, namespace + FLOW_POSTFIX,
+        ClusterFlowRuleManager.setPropertySupplier(namespeces->{
+            ReadableDataSource<String, List<FlowRule>> rds =
+                    new NacosDataSource<>(remoteAddress, groupId, namespeces + FLOW_POSTFIX,
                             source -> JSON.parseObject(source, new TypeReference<List<FlowRule>>() {
                             }));
             return rds.getProperty();

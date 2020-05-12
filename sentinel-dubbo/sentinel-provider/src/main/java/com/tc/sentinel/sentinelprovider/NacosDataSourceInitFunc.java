@@ -19,35 +19,41 @@ import java.util.List;
 public class NacosDataSourceInitFunc implements InitFunc {
 
     //token-server的地址
-    private final String CLUSTER_SERVER_HOST="localhost";
-    private final int CLUSTER_SERVER_PORT=9999;
+    private static final String CLUSTER_SERVER_HOST="localhost";
+    private static final int CLUSTER_SERVER_PORT=9999;
     //请求超时时间
-    private final int REQUEST_TIME_OUT=200000;
+    private static final int REQUEST_TIME_OUT=200000;
 
     //namespace
-    private final String APP_NAME="App-Tc";
+    private static final String APP_NAME = "App-Tc";
 
-    //nacos的配置()
-    private final String remoteAddress="192.168.12.101"; //nacos 配置中心的服务host
-    private final String groupId="SENTINEL_GROUP";
-    private final String FLOW_POSTFIX="-flow-rules"; //dataid（names+postfix）
+    /**nacos配置中心的服务host*/
+    private static final String REMOTE_ADDRESS = "192.168.12.101";
+
+    /**groupId*/
+    private static final String  GROUP_ID = "SENTINEL_GROUP";
+
+    /**dataid（names+postfix）*/
+    private static final String FLOW_POSTFIX = "-flow-rules";
 
     /**意味着当前的token-server会从nacos上获得限流的规则*/
     @Override
     public void init() throws Exception {
          //加载集群-信息
         loadClusterClientConfig();
-
         registryClusterFlowRuleProperty();
     }
 
-    private void loadClusterClientConfig(){
-        ClusterClientAssignConfig assignConfig=new ClusterClientAssignConfig();
+    /**通过硬编码的方式，配置连接到token-server的服务地址（实际使用过程中不建议，
+     *可以基于动态配置改造 ）*/
+    private static void loadClusterClientConfig() {
+        ClusterClientAssignConfig assignConfig = new ClusterClientAssignConfig();
         assignConfig.setServerHost(CLUSTER_SERVER_HOST);
         assignConfig.setServerPort(CLUSTER_SERVER_PORT);
         ClusterClientConfigManager.applyNewAssignConfig(assignConfig);
 
-        ClusterClientConfig clientConfig=new ClusterClientConfig();
+        ClusterClientConfig clientConfig = new ClusterClientConfig();
+        //token-client请求token-server获取令牌的超时时间
         clientConfig.setRequestTimeout(REQUEST_TIME_OUT);
         ClusterClientConfigManager.applyNewConfig(clientConfig);
     }
@@ -68,12 +74,14 @@ public class NacosDataSourceInitFunc implements InitFunc {
      *     }
      * ]
      */
-    private void registryClusterFlowRuleProperty(){
-        ReadableDataSource<String, List<FlowRule>> rds=
-                new NacosDataSource<>(remoteAddress, groupId, APP_NAME + FLOW_POSTFIX,
+    private static void registryClusterFlowRuleProperty(){
+        ReadableDataSource<String, List<FlowRule>> ds =
+                new NacosDataSource<>(REMOTE_ADDRESS, GROUP_ID, APP_NAME + FLOW_POSTFIX,
                         source -> JSON.parseObject(source, new TypeReference<List<FlowRule>>() {
                         }));
-        FlowRuleManager.register2Property(rds.getProperty());
+
+        // 为集群客户端注册动态规则源
+        FlowRuleManager.register2Property(ds.getProperty());
     }
 
 }
