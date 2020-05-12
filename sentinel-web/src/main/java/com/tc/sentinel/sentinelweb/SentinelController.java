@@ -1,7 +1,7 @@
 package com.tc.sentinel.sentinelweb;
 
-import com.tc.sentinel.*;
-import jdk.nashorn.internal.ir.annotations.Reference;
+import com.tc.sentinel.SentinelService;
+import org.apache.dubbo.config.annotation.Reference;
 import org.apache.dubbo.rpc.RpcContext;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,13 +13,13 @@ public class SentinelController {
     SentinelService sentinelService;
 
     @GetMapping("/say")
-    public String sayHello(){
+    public String sayHello() throws InterruptedException {
         RpcContext.getContext().setAttachment("dubboApplication","sentinel-web");
         return sentinelService.sayHelloWorld("test-sentinel");
     }
 
     @GetMapping("/say2")
-    public String sayHello2(){
+    public String sayHello2() throws InterruptedException {
         return sentinelService.sayHelloWorld("test-default");
     }
 }

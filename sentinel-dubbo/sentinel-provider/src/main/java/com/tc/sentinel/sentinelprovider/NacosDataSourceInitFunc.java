@@ -74,6 +74,11 @@ public class NacosDataSourceInitFunc implements InitFunc {
      *     }
      * ]
      */
+    /*** 注册动态规则Property
+     * 当client与Server连接中断，退化为本地限流时需要用到的该规则 *
+     * 该配置为必选项，客户端会从nacos上加载限流规则，请求tokenserver时，会戴上要check的规 则id
+     * {这里的动态数据源，我们稍后会专门讲到}
+     */
     private static void registryClusterFlowRuleProperty(){
         ReadableDataSource<String, List<FlowRule>> ds =
                 new NacosDataSource<>(REMOTE_ADDRESS, GROUP_ID, APP_NAME + FLOW_POSTFIX,

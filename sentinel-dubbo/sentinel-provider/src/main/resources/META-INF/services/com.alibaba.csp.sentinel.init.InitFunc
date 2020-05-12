@@ -1,1 +1,2 @@
 com.tc.sentinel.sentinelprovider.NacosDataSourceInitFunc
+com.tc.sentinel.sentinelprovider.NacosDataSourceHystrixFunc

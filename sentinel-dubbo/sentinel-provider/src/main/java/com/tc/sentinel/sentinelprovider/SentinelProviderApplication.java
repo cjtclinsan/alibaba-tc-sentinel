@@ -17,11 +17,9 @@ public class SentinelProviderApplication {
 
     public static void main(String[] args) throws IOException {
         //表示当前的节点是集群客户端
-//        ClusterStateManager.applyState(ClusterStateManager.CLUSTER_CLIENT);
+        ClusterStateManager.applyState(ClusterStateManager.CLUSTER_CLIENT);
         //初始化限流规则
-        initFlowRole();
-//        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(DubboConfig.class);
-//        ((AnnotationConfigApplicationContext) applicationContext).start();
+//        initFlowRole();
         SpringApplication.run(SentinelProviderApplication.class, args);
         System.in.read();
     }
